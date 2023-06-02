@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T14:07:03 CEST" name="Default suite" finished-at="2023-05-12T14:07:12 CEST" duration-ms="9214">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest2DataDriven.test_login_api_with(java.lang.String,java.lang.String)[pri:1, instance:com.api.test.LoginTest2DataDriven@6379eb]" name="test_login_api_with" class="com.api.test.LoginTest2DataDriven"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest2DataDriven.test_login_api_with(java.lang.String,java.lang.String)[pri:1, instance:com.api.test.LoginTest2DataDriven@6379eb]" name="test_login_api_with" class="com.api.test.LoginTest2DataDriven"/>
+      </group> <!-- sanity -->
+      <group name="e2e">
+        <method signature="LoginTest2DataDriven.test_login_api_with(java.lang.String,java.lang.String)[pri:1, instance:com.api.test.LoginTest2DataDriven@6379eb]" name="test_login_api_with" class="com.api.test.LoginTest2DataDriven"/>
+      </group> <!-- e2e -->
+    </groups>
+    <test started-at="2023-05-12T14:07:03 CEST" name="Default test" finished-at="2023-05-12T14:07:12 CEST" duration-ms="9214">
+      <class name="com.api.test.LoginTest2DataDriven">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:03 CEST" name="setup" description="Setting up the baserURI and the login POJO" finished-at="2023-05-12T14:07:04 CEST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_login_api_with(java.lang.String,java.lang.String)[pri:1, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:04 CEST" name="test_login_api_with" description="verify if login api works for from desk and returns 200 status code with message as success" data-provider="loginDP" finished-at="2023-05-12T14:07:08 CEST" duration-ms="4283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iamfd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_api_with -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:08 CEST" name="setup" description="Setting up the baserURI and the login POJO" finished-at="2023-05-12T14:07:08 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_login_api_with(java.lang.String,java.lang.String)[pri:1, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:08 CEST" name="test_login_api_with" description="verify if login api works for from desk and returns 200 status code with message as success" data-provider="loginDP" finished-at="2023-05-12T14:07:09 CEST" duration-ms="1390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iamsup]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_api_with -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:09 CEST" name="setup" description="Setting up the baserURI and the login POJO" finished-at="2023-05-12T14:07:09 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_login_api_with(java.lang.String,java.lang.String)[pri:1, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:09 CEST" name="test_login_api_with" description="verify if login api works for from desk and returns 200 status code with message as success" data-provider="loginDP" finished-at="2023-05-12T14:07:12 CEST" duration-ms="2126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iameng]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_api_with -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:12 CEST" name="setup" description="Setting up the baserURI and the login POJO" finished-at="2023-05-12T14:07:12 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_login_api_with(java.lang.String,java.lang.String)[pri:1, instance:com.api.test.LoginTest2DataDriven@6379eb]" started-at="2023-05-12T14:07:12 CEST" name="test_login_api_with" description="verify if login api works for from desk and returns 200 status code with message as success" data-provider="loginDP" finished-at="2023-05-12T14:07:12 CEST" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iamqc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_api_with -->
+      </class> <!-- com.api.test.LoginTest2DataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
